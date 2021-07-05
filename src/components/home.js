@@ -35,7 +35,6 @@ class Home extends Component {
               <p className="section-title">We help the world’s leading organizations follow their shipping</p>
               </div>
 
-
               <div className="card-deck">
                 <div className="card">
                     <img className="card-img-top" src={brief} alt="Brief"/>
@@ -66,23 +65,57 @@ class Home extends Component {
 
             <div className="container-fluid  section3-r">               
                <div className="row section3-bg">
-                  <div className="col section3">
-                     
-                  </div>
+                  <div className="col section3"></div>
                   <div className="col">
-                     <p className="content-3">Ad eos saepe lucilius, noster postulant philosophia ea usu, qui dicta sadipscing te.</p>
-                     <p className="section-3-text">Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est audiam animal molestiae te. Ex duo eripuit mentitum.</p>
+                        <p className="content-3">Ad eos saepe lucilius, noster postulant philosophia ea usu, qui dicta sadipscing te.</p>
+                        <p className="section-3-text">Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est audiam animal molestiae te. Ex duo eripuit mentitum.</p>
                      <form className="form-inline">
-                 <div class="banner-btn">
-                    <button class="form-control btn btn-primary-blue mr-sm-2" type="submit">Enroll now</button>
-                    <button class="btn btn-outline-blue my-2 my-sm-0" type="submit">Read more</button>
-                    </div>
+                        <div class="banner-btn">
+                           <button class="form-control btn btn-primary-blue mr-sm-2" type="submit">Enroll now</button>
+                           <button class="btn btn-outline-blue my-2 my-sm-0" type="submit">Read more</button>
+                        </div>
                     </form>
                   </div>
-                  </div>
-                  
-
                </div>
+            </div>
+
+            <div className="container">
+               <div className="section4">
+                  <p className="banner-grow">Grow your business with better Shipping</p>
+                  <p className="section-title">We help the world’s leading organizations follow their shipping</p>
+               </div>
+
+               <div className="card-deck mt-5">
+                <div className="card">
+                    <img className="card-img-top-1"/>
+                    <div className="card-body">
+                     <h5 className="card-title">Ad eos saepe lucilius</h5>
+                    <p className="card-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
+                    </div>
+                 </div>
+                 <div className="card">
+                    <img className="card-img-top-1"/>
+                    <div className="card-body">
+                     <h5 className="card-title">Ad eos saepe lucilius</h5>
+                    <p className="card-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
+                    </div>
+                 </div>
+                 <div className="card">
+                    <img className="card-img-top-1"/>
+                    <div className="card-body">
+                     <h5 className="card-title">Ad eos saepe lucilius</h5>
+                    <p className="card-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
+                    </div>
+                 </div>
+                 <div className="card">
+                    <img className="card-img-top-1"/>
+                    <div className="card-body">
+                     <h5 className="card-title">Ad eos saepe lucilius</h5>
+                    <p className="card-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
+                    </div>
+                 </div>
+               </div>
+            </div>
         </div>
 
          );
