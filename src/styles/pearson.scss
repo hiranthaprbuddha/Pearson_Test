@@ -1,0 +1,149 @@
+$primary-blue:#017A9B !important;
+$whitecolor:#fff !important;
+$btn-outline-color:#017A9B !important;
+$background-grey:#2E3D49;
+$text-align-center:center;
+$banner-text-color:#373F41;
+$background-light:#FAFAFA;
+
+.btn-primary-blue{
+    background-color: $primary-blue;
+    color: $whitecolor;
+  }
+
+.btn-outline-blue{
+    border-color: $btn-outline-color ;
+    color:$primary-blue;
+    background-color: $whitecolor;
+  }
+
+.background-greay{
+    background-color: $background-grey;
+    padding: 56px;
+  }
+
+.banner{
+    font-size: 44px;
+    font-weight: bold;
+    color: $whitecolor;
+    text-align: $text-align-center;
+}
+
+.banner-text{
+    font-size: 16px;
+    color: $whitecolor;
+    text-align: $text-align-center;
+}
+
+.banner-btn{
+    text-align: justify;
+}
+
+.banner-grow{
+    font-size: 32px;
+    font-weight: bold;
+    color: $banner-text-color;
+    text-align: $text-align-center;
+}
+
+.banner-g{
+    padding-top: 56px;
+}
+
+.section-title{
+    font-size: 16px;
+    color: $banner-text-color;
+    text-align: $text-align-center;
+}
+
+.card-img-top{
+    width: 40px;
+    height: 40px;
+}
+
+.card-title{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: $text-align-center;
+}
+
+.card-text{
+    font-size: 14px;
+    text-align: $text-align-center;
+}
+
+.card-text-dis{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: $text-align-center;
+    color:  $primary-blue;
+}
+
+.card{
+    border: none !important;
+}
+
+.section3{
+    background-color: $background-grey;
+    width: 500px;
+    height: 320px;
+    text-align: $text-align-center;
+    color: $background-grey;
+}
+
+.content-3{
+    font-size: 32px;
+    font-weight: bold;
+    color: $banner-text-color;
+    text-align: left;
+}
+
+.section-3-text{
+    font-size: 16px;
+    color: $banner-text-color;
+    text-align: left;
+}
+
+.section3-bg{
+    background-color: $background-light;
+    padding: 20px;
+}
+
+.hidden-text{
+    color: $background-grey;
+}
+
+.card-img-top-1{
+    background-color: $background-grey;
+    width: 264px;
+    height: 260px;
+    text-align: $text-align-center;
+}
+
+/*Using flex*/
+
+
+
+
+@media (max-width: 991.98px) { 
+
+    .card-img-top-1{
+        text-align: center;
+        background-color: $background-grey;
+        width: 320px;
+        height: 260px;
+    }
+    .footer-text-left{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-text-right{
+        text-align: $text-align-center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
+

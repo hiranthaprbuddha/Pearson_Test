@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 
-import NavBar from './components/navbar';
+import NavBar from './components/navbar/navbar';
 import './App.css';
-import './css/pearson.css';
 import Home from './components/home';
-import Footer from './components/footer';
+import Footer from './components/footer/footer';
 
 
 class App extends Component {

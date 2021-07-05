@@ -1,0 +1,31 @@
+$primary-bg-color:#2E3D49;
+$whitecolor:#FAFAFA;
+
+.footer{
+    background-color:$primary-bg-color;
+    color: $whitecolor;
+    
+}
+
+.footer-text-right{
+    text-align: right;
+    padding-top: 20px;
+    margin-right: 15%;
+    color: $whitecolor;
+    font-size: 14px;
+}
+
+.footer-text-left{
+    float: left;
+    margin-left: 10%;
+    padding-top: 20px;
+    color: $whitecolor;
+    font-size: 14px;
+    list-style-type: none;
+    display: flex;
+}
+
+.pad{
+    padding-left: 10px;
+    padding-right: 10px;
+}
