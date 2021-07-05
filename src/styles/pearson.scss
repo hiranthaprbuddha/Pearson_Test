@@ -121,27 +121,63 @@ $background-light:#FAFAFA;
 }
 
 /*Using flex*/
+.flexbox-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox-item{
+    width: 250px;
+    height: 260px;
+    margin: 10px;
+    background-color: $background-grey;
+}
+
+.f-title{
+    font-size: 16px;
+    margin-top: 280px;
+    font-weight: bold;
+    text-align: $text-align-center;
+    color:  $background-grey;
+}
+
+.f-text{
+    font-size: 14px;
+    text-align: $text-align-center;
+    color:  $background-grey;
+}
+
+.flexbox-container-banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
 
 @media (max-width: 991.98px) { 
 
-    .card-img-top-1{
-        text-align: center;
-        background-color: $background-grey;
-        width: 320px;
+    .flexbox-item{
+        width: 250px;
         height: 260px;
-    }
-    .footer-text-left{
-        margin-left: auto;
-        margin-right: auto;
+        margin-bottom: 100px;
+        background-color: $background-grey;
     }
 
-    .footer-text-right{
-        text-align: $text-align-center;
-        margin-left: auto;
-        margin-right: auto;
+    .flexbox-container-banner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: space-around;
+    }
+
+    .f-item2{
+        margin: 5px;
     }
 
 

@@ -4,6 +4,7 @@ $whitecolor:#FAFAFA;
 .footer{
     background-color:$primary-bg-color;
     color: $whitecolor;
+    margin-top: 150px;
     
 }
 
@@ -28,4 +29,30 @@ $whitecolor:#FAFAFA;
 .pad{
     padding-left: 10px;
     padding-right: 10px;
+}
+
+@media (max-width: 992px) { 
+
+    .footer-text-left{
+    float: left;
+    padding-top: 20px;
+    color: $whitecolor;
+    font-size: 14px;
+    list-style-type: none;
+    display: flex;
+    }
+
+    .footer-text-right{
+        text-align: center;
+        margin-left: 50px;
+        padding-top: 20px;
+        color: $whitecolor;
+        font-size: 14px;
+    }
+
+    .pad{
+        padding-left: 1px;
+        padding-right: 10px;
+    }
+
 }

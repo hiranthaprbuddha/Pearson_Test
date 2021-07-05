@@ -13,18 +13,18 @@ class Home extends Component {
                   <p className="banner">Simplify your online shipping for<br></br> free this month!</p>
                   <p className="banner-text">Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At<br></br>
                      nam minimum ponderum. Est audiam animal molestiae te.</p>
-                 <div className="row">  
-                     <div className="col-md-4"></div>
-                     <div className="col-md-4" >
-                     <form className="form-inline">
-                        <div className="banner-btn">
-                           <button className="form-control btn btn-primary-blue mr-sm-2" type="submit">Start free trial </button>
-                           <button className="btn btn-outline-blue my-2 my-sm-0" type="submit">Learn more </button>
-                        </div>
-                    </form>
-                 </div>
-                 <div className="col-md-4"></div>  
-                </div>  
+
+                     <div className="flexbox-container-banner">
+                  <div className="f-item1">
+                  </div>
+                  <div className="f-item2">
+                        <button className="btn btn-primary-blue mr-sm-2 f-item2 " type="submit">Start free trial</button>
+                        <button className="btn btn-outline-blue my-2 my-sm-0 f-item2" type="submit">Learn now</button>
+                  </div>
+                  <div className="f-item3">
+                  </div>
+                  
+               </div> 
             </div>
 
             <div className="container">
@@ -84,36 +84,27 @@ class Home extends Component {
                   <p className="section-title">We help the world’s leading organizations follow their shipping</p>
                </div>
 
-               <div className="card-deck mt-5 mb-5">
-                <div className="card">
-                        <div className="card-img-top-1"></div>
-                    <div className="card-body">
-                        <h5 className="card-title">Ad eos saepe lucilius</h5>
-                     <p className="card-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
-                    </div>
-                 </div>
-                 <div className="card">
-                        <div className="card-img-top-1"></div>
-                     <div className="card-body">
-                        <h5 className="card-title">Ad eos saepe lucilius</h5>
-                        <p className="card-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
-                    </div>
-                 </div>
-                 <div className="card">
-                        <div className="card-img-top-1"></div>
-                     <div className="card-body">
-                        <h5 className="card-title">Ad eos saepe lucilius</h5>
-                        <p className="card-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
-                    </div>
-                 </div>
-                 <div className="card">
-                        <div className="card-img-top-1"></div>
-                    <div className="card-body">
-                        <h5 className="card-title">Ad eos saepe lucilius</h5>
-                        <p className="card-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
-                    </div>
-                 </div>
+
+               <div className="flexbox-container">
+                  <div className="flexbox-item flexbox-item1">
+                     <h5 className="f-title">Ad eos saepe lucilius</h5>
+                     <p className="f-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
+                  </div>
+                  <div className="flexbox-item flexbox-item2">
+                  <h5 className="f-title">Ad eos saepe lucilius</h5>
+                     <p className="f-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
+                  </div>
+                  <div className="flexbox-item flexbox-item3">
+                  <h5 className="f-title">Ad eos saepe lucilius</h5>
+                     <p className="f-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
+                  </div>
+                  <div className="flexbox-item flexbox-item4">
+                  <h5 className="f-title">Ad eos saepe lucilius</h5>
+                     <p className="f-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
+                  </div>
                </div>
+
+               
             </div>
         </div>
          );
