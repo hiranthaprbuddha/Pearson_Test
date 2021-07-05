@@ -1,0 +1,75 @@
+.btn-primary-blue{
+    background-color: #017A9B !important;
+    color: #fff !important;
+  }
+
+.btn-outline-blue{
+    border-color: #017A9B !important ;
+    color: #017A9B !important;
+    background-color: #fff !important;
+  }
+
+.background-greay{
+    background-color: #2E3D49;
+    padding: 56px;
+  }
+.banner{
+    font-size: 44px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.banner-text{
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+.banner-btn{
+    text-align: justify;
+}
+
+.banner-grow{
+    font-size: 32px;
+    font-weight: bold;
+    color: #373F41;
+    text-align: center;
+}
+
+.banner-g{
+    padding-top: 56px;
+}
+
+.section-title{
+    font-size: 16px;
+    color: #373F41;
+    text-align: center;
+}
+
+.card-img-top{
+    width: 40px;
+    height: 40px;
+}
+
+.card-title{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-text{
+    font-size: 14px;
+    text-align: center;
+}
+
+.card-text-dis{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color:  #017A9B;
+}
+
+
+.card{
+    border: none !important;
+}
