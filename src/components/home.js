@@ -85,7 +85,7 @@ class Home extends Component {
                   <p className="section-title">We help the world’s leading organizations follow their shipping</p>
                </div>
 
-               <div className="card-deck mt-5">
+               <div className="card-deck mt-5 mb-5">
                 <div className="card">
                     <img className="card-img-top-1"/>
                     <div className="card-body">
