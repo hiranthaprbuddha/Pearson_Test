@@ -13,6 +13,7 @@
     background-color: #2E3D49;
     padding: 56px;
   }
+
 .banner{
     font-size: 44px;
     font-weight: bold;
@@ -25,6 +26,7 @@
     color: #fff;
     text-align: center;
 }
+
 .banner-btn{
     text-align: justify;
 }
@@ -137,9 +139,3 @@
     padding-right: 10px;
 }
 
-
-.navbar-expand-lg .navbar-collapse {
-    display: flex!important;
-    justify-content: space-around;
-    flex-basis: auto;
-    }

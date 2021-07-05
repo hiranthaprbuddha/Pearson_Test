@@ -13,7 +13,6 @@ class App extends Component {
       <div>
         <NavBar/>
         <Home/> 
-
         <Footer/>
       </div> 
      );

@@ -7,20 +7,19 @@ class Home extends Component {
     state = {  }
     render() { 
         return ( 
-        <div className="container-fluid">
-            
+        <div className="container-fluid"> 
             <div className="background-greay">
-               <p className="banner">Simplify your online shipping for<br></br> free this month!</p>
-                <p className="banner-text">Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At<br></br>
+                  <p className="banner">Simplify your online shipping for<br></br> free this month!</p>
+                  <p className="banner-text">Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At<br></br>
                      nam minimum ponderum. Est audiam animal molestiae te.</p>
                  <div className="row">  
-                 <div className="col-md-4"></div>
-                 <div className="col-md-4" >
-                 <form className="form-inline">
-                 <div class="banner-btn">
-                    <button class="form-control btn btn-primary-blue mr-sm-2" type="submit">Start free trial </button>
-                    <button class="btn btn-outline-blue my-2 my-sm-0" type="submit">Learn more </button>
-                    </div>
+                     <div className="col-md-4"></div>
+                     <div className="col-md-4" >
+                     <form className="form-inline">
+                        <div class="banner-btn">
+                           <button class="form-control btn btn-primary-blue mr-sm-2" type="submit">Start free trial </button>
+                           <button class="btn btn-outline-blue my-2 my-sm-0" type="submit">Learn more </button>
+                        </div>
                     </form>
                  </div>
                  <div className="col-md-4"></div>  
@@ -28,11 +27,11 @@ class Home extends Component {
             </div>
 
             <div className="container">
-              <div className="banner-g">
-              <p className="banner-grow">
-              Grow your business with better Shipping
-              </p>
-              <p className="section-title">We help the world’s leading organizations follow their shipping</p>
+               <div className="banner-g">
+                  <p className="banner-grow">
+                     Grow your business with better Shipping
+                  </p>
+                  <p className="section-title">We help the world’s leading organizations follow their shipping</p>
               </div>
 
               <div className="card-deck">
@@ -87,37 +86,36 @@ class Home extends Component {
 
                <div className="card-deck mt-5 mb-5">
                 <div className="card">
-                    <img className="card-img-top-1"/>
+                        <img className="card-img-top-1"/>
                     <div className="card-body">
-                     <h5 className="card-title">Ad eos saepe lucilius</h5>
-                    <p className="card-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
+                        <h5 className="card-title">Ad eos saepe lucilius</h5>
+                     <p className="card-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
                     </div>
                  </div>
                  <div className="card">
-                    <img className="card-img-top-1"/>
-                    <div className="card-body">
-                     <h5 className="card-title">Ad eos saepe lucilius</h5>
-                    <p className="card-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
+                        <img className="card-img-top-1"/>
+                     <div className="card-body">
+                        <h5 className="card-title">Ad eos saepe lucilius</h5>
+                        <p className="card-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
                     </div>
                  </div>
                  <div className="card">
-                    <img className="card-img-top-1"/>
-                    <div className="card-body">
-                     <h5 className="card-title">Ad eos saepe lucilius</h5>
-                    <p className="card-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
+                        <img className="card-img-top-1"/>
+                     <div className="card-body">
+                        <h5 className="card-title">Ad eos saepe lucilius</h5>
+                        <p className="card-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
                     </div>
                  </div>
                  <div className="card">
-                    <img className="card-img-top-1"/>
+                        <img className="card-img-top-1"/>
                     <div className="card-body">
-                     <h5 className="card-title">Ad eos saepe lucilius</h5>
-                    <p className="card-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
+                        <h5 className="card-title">Ad eos saepe lucilius</h5>
+                        <p className="card-text">At eripuit signiferumque sea, vel ad mucius molestie, cu labitur.</p>
                     </div>
                  </div>
                </div>
             </div>
         </div>
-
          );
     }
 }
