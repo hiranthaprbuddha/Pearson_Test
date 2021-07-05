@@ -69,7 +69,34 @@
     color:  #017A9B;
 }
 
-
 .card{
     border: none !important;
+}
+
+.section3{
+    background-color: #2E3D49;
+    width: 520px;
+    height: 320px;
+}
+
+.section3-r{
+    padding: 20px;
+}
+
+.content-3{
+    font-size: 32px;
+    font-weight: bold;
+    color: #373F41;
+    text-align: left;
+}
+
+.section-3-text{
+    font-size: 16px;
+    color: #373F41;
+    text-align: left;
+}
+
+.section3-bg{
+    background-color: #FAFAFA;
+    padding: 90px;
 }

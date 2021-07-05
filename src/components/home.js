@@ -63,6 +63,26 @@ class Home extends Component {
                  </div>
                </div>
             </div>
+
+            <div className="container-fluid  section3-r">               
+               <div className="row section3-bg">
+                  <div className="col section3">
+                     
+                  </div>
+                  <div className="col">
+                     <p className="content-3">Ad eos saepe lucilius, noster postulant philosophia ea usu, qui dicta sadipscing te.</p>
+                     <p className="section-3-text">Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. At nam minimum ponderum. Est audiam animal molestiae te. Ex duo eripuit mentitum.</p>
+                     <form className="form-inline">
+                 <div class="banner-btn">
+                    <button class="form-control btn btn-primary-blue mr-sm-2" type="submit">Enroll now</button>
+                    <button class="btn btn-outline-blue my-2 my-sm-0" type="submit">Read more</button>
+                    </div>
+                    </form>
+                  </div>
+                  </div>
+                  
+
+               </div>
         </div>
 
          );
